@@ -1,0 +1,119 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  text-align: center;
+}
+
+/* Navbar Styles */
+
+.navbar {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 15px 20px;
+  background-color: #921A40;
+  color: white;
+}
+
+
+.navbar ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  gap: 20px;
+}
+
+.navbar ul li {
+  display: inline;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  padding: 8px 12px;
+  transition: 0.3s;
+}
+
+.navbar ul li a:hover {
+  background-color: white;
+  color: #921A40;
+  border-radius: 5px;
+}
+
+.auth-links {
+  margin-left: auto;
+}
+
+.auth-links .login-btn,
+.auth-links .signup-btn {
+  text-decoration: none;
+  font-weight: bold;
+  padding: 8px 15px;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+
+.auth-links .login-btn {
+  background-color: white;
+  color: #921A40;
+}
+
+.auth-links .signup-btn {
+  background-color: #D91656;
+  color: white;
+  margin-left: 10px;
+}
+
+.auth-links .login-btn:hover {
+  background-color: #D91656;
+  color: white;
+}
+
+.auth-links .signup-btn:hover {
+  background-color: white;
+  color: #D91656;
+}
+
+.page-title {
+  color: #333;
+  margin-top: 20px;
+}
+
+.period-tracker, .exercise-videos {
+  margin: 20px;
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.period-tracker form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.period-tracker input {
+  margin: 5px;
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+button {
+  background-color: #D91656;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+button:hover {
+  background-color: #ff3366;
+}
+

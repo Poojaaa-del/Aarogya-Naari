@@ -1,0 +1,111 @@
+  .appointment-container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    text-align: center;
+  }
+  
+  .appointment-container h1 {
+    color: #d63384;
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+  
+  .toggle-role {
+    background: linear-gradient(45deg, #d63384, #ff80a4);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background 0.3s;
+    margin-bottom: 20px;
+  }
+  
+  .toggle-role:hover {
+    background: linear-gradient(45deg, #ff80a4, #d63384);
+  }
+  
+  .appointment-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 20px;
+  }
+  
+  .appointment-form select,
+  .appointment-form input {
+    padding: 12px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  .book-button {
+    background: #d63384;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: transform 0.3s;
+  }
+  
+  .book-button:hover {
+    transform: translateY(-3px);
+  }
+  
+  .appointments-view ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .appointments-view li {
+    background: #f9f9f9;
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: left;
+  }
+  
+  .appointments-view li span {
+    display: block;
+    color: #d63384;
+  }
+  
+  .user-appointments-view {
+    margin-top: 30px;
+    text-align: left;
+  }
+  
+  .user-appointments-view h2 {
+    color: #d63384;
+  }
+  
+  .user-appointments-view ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .user-appointments-view li {
+    background: #fff4f7;
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .user-appointments-view li span {
+    display: block;
+    color: #d63384;
+  }
+  
+  .amount-section {
+    font-weight: bold;
+    color: #d63384;
+  }
+  
+   

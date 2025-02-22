@@ -1,0 +1,169 @@
+.period-tracker-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background: #f8f9fa;
+    min-height: 100vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+  }
+  
+  .period-tracker-container h1 {
+    color: #d63384;
+    font-size: 42px;
+    margin-bottom: 30px;
+    text-shadow: 1px 1px 2px #ccc;
+  }
+  
+  /* Input Section */
+  .input-section {
+    background: #f1429a;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 800px;
+    margin-bottom: 30px;
+    color: #fff;
+  }
+  
+  .input-section-text {
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+
+  .input-row {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    position: relative;
+  }
+  
+  .input-row label {
+    font-weight: bold;
+    color: #555;
+    margin-bottom: 5px;
+    transition: all 0.3s ease;
+    pointer-events: none;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    background: #fff;
+    padding: 0 5px;
+  }
+  
+  .input-row input {
+    padding: 15px 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    outline: none;
+    transition: border-color 0.3s ease;
+  }
+  
+  .input-row input:focus {
+    border-color: #d63384;
+  }
+  
+  .input-row input:focus + label,
+  .input-row input:not(:placeholder-shown) + label {
+    top: -12px;
+    left: 8px;
+    color: #d63384;
+    font-size: 12px;
+  }
+  
+  /* Button Styling */
+  .add-reminder-button {
+    background: #d63384;
+    color: white;
+    padding: 12px 24px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background 0.3s;
+    font-size: 18px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .add-reminder-button:hover {
+    background: #c21873;
+  }
+  
+  /* Calendar Styling */
+  .react-calendar {
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 600px;
+    padding: 20px;
+    font-size: 18px;
+    background: #fff;
+    margin-bottom: 30px;
+  }
+  
+  .react-calendar__tile {
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    transition: background 0.3s;
+    color: #757575;
+  }
+  
+  .react-calendar__tile:hover {
+    background: #fce4ec;
+  }
+
+  .react-calendar__navigation {
+    background: #c21873;
+  }
+  
+  .predicted-period {
+    background-color: #ffb3c6 !important;
+    color: white !important;
+    border-radius: 50%;
+  }
+  
+  .reminder-date {
+    background-color: #ff80a4 !important;
+    color: white !important;
+    border-radius: 50%;
+  }
+  
+  /* Predicted Dates Section */
+  .predicted-dates {
+    background: #fff;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 500px;
+    text-align: center;
+  }
+  
+  .predicted-dates h2 {
+    color: #d63384;
+    margin-bottom: 15px;
+  }
+  
+  .predicted-dates ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .predicted-dates li {
+    background: #ffccd9;
+    margin: 8px 0;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+
+
+ 

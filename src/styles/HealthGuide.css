@@ -1,0 +1,89 @@
+.health-guide-container {
+    text-align: center;
+    padding: 20px;
+    background: #fffaf5;
+    color: #333;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .health-guide-container h1 {
+    color: #ff477e;
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .topics-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .topic-card {
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+    padding: 10px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .topic-card.active {
+    transform: scale(1.02);
+    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  .topic-image {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 10px;
+    max-height: 400px;
+    margin-bottom: 10px;
+  }
+  
+  .topic-text {
+    margin-top: 10px;
+    text-align: center;
+  }
+  
+  .topic-title {
+    font-size: 24px;
+    color: #ff477e;
+    margin: 0;
+  }
+  
+  .topic-shortnote {
+    font-size: 14px;
+    color: #777;
+  }
+  
+  .topic-content {
+    font-size: 16px;
+    color: #555;
+    text-align: left;
+    margin-top: 10px;
+    opacity: 1;
+    transition: opacity 0.3s ease;
+  }
+  
+  .topic-card:not(.active) .topic-content {
+    display: none;
+  }
+  
+  @media (max-width: 768px) {
+    .topics-container {
+      grid-template-columns: 1fr;
+    }
+  
+    .topic-image {
+      max-height: 300px;
+    }
+  }
+  
