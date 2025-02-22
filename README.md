@@ -1,25 +1,32 @@
-# Getting Started with Create React App
+# Aarogya Naari
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Empowering Women’s Health and Well-being
 
-## Available Scripts
+Aarogya Naari is a comprehensive web application designed to cater to the health needs of women. The app offers tools and resources for period tracking, exercise videos, gynecologist appointments, and informative health guides.
 
-In the project directory, you can run:
+## Features
 
-### `npm start`
+### 1. Period Tracker
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+~ Predicts upcoming periods with a dynamic calendar and reminder system.
+~ Helps users monitor cycle patterns and maintain menstrual health records.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### 2. Exercise Videos
 
-### `npm test`
+Categorized videos for:
+ ~ Relieving Period Pain
+~ Exercises During Pregnancy
+~ Daily Fitness
+~ Breathing Exercises for Mental Calmness
+~ Hormonal Balance Exercises
+~ Includes search and filter options for easy access to relevant workouts.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### 3. Book Appointment
 
-### `npm run build`
+~ Seamless booking system for gynecologist appointments.
+~ Accessibility for both users and gynecologists with a role-switching feature.
+
+### 4. Health Guide
 
 Builds the app for production to the `build` folder.\
 It correctly bundles React in production mode and optimizes the build for the best performance.
@@ -41,30 +48,3 @@ You don't have to ever use `eject`. The curated feature set is suitable for smal
 
 ## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
